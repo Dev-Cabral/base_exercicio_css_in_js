@@ -9,7 +9,6 @@ function App() {
     <>
       <Header />
       <Hero />
-      <div className="container">
         <ListaVagas />
       </div>
     </>
