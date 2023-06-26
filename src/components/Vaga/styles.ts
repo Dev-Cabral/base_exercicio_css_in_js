@@ -23,12 +23,17 @@ export const VagasLinks = styled.a`
   display: inline-block;
   padding: 8px 16px;
   text-decoration: none;
-  margin-top: 16px;
+  margin: 8px 12px;
   font-weight: bold;
   font-size: 14px;
   border-radius: 8px;
   text-align: center;
 
+  &:hover {
+    border: 1px solid #f9f5e7;
+    background-color: #a7727d;
+    color: #f9f5e7;
+  }
   @media (max-width: 768px) {
     display: block;
   }
