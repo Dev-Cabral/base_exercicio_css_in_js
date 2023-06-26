@@ -20,6 +20,7 @@ export default Formulario
 export const HeroTitle = styled.h2`
   font-family: Gloock, serif;
   font-size: 48px;
+  color: #eee;
 
   @media (max-width: 768px) {
     font-size: 32px;
