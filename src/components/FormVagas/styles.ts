@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Formulario = styled.form`
+export const Form = styled.form`
   display: grid;
   grid-template-columns: 1fr auto;
   background-color: #a7727d;
@@ -8,7 +8,7 @@ export const Formulario = styled.form`
   border-radius: 12px;
   margin-top: 40px;
 `
-export const Input = styled.input`
+export const Campo = styled.input`
   padding: 0 16px;
   outline-color: #f9f5e7;
 `

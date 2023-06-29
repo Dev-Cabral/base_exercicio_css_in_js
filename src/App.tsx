@@ -9,8 +9,8 @@ function App() {
     <>
       <GlobalEstyle />
       <Header />
+      <Hero />
       <Container>
-        <Hero />
         <ListaVagas />
       </Container>
     </>

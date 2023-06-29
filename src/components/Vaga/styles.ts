@@ -1,15 +1,17 @@
 import styled from 'styled-components'
 
-export const Vagas = styled.li`
+export const VagasComponente = styled.li`
   border: 1px solid #f9f5e7;
   background-color: #a7727d;
   color: #f9f5e7;
   padding: 16px;
   transition: all ease 0.3s;
   border-radius: 8px;
+
+  }
 `
 
-export default Vagas
+export default VagasComponente
 
 export const VagasTitulo = styled.h3`
   font-weight: bold;
@@ -34,6 +36,7 @@ export const VagasLinks = styled.a`
     background-color: #a7727d;
     color: #f9f5e7;
   }
+
   @media (max-width: 768px) {
     display: block;
   }
